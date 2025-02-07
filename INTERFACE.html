@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MATH REVIEW</title>
+<style>
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #f3e5ab, #f5b461);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  .box-container {
+    display: flex;
+    justify-content: center; /* Centers boxes horizontally */
+    align-items: center; /* Centers boxes vertically */
+    height: 100vh; /* Full height of the viewport */
+    flex-wrap: wrap; /* Allows boxes to wrap if there's not enough space */
+  }
+
+  .box {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+  }
+
+  .box a {
+    text-decoration: sans-serif, Sans;
+    color: white;
+    font-weight: bold;
+	font-size: 30px
+  }
+
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+	animation: bounce 0.5s;
+  }
+  
+   @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .box1 { background-color: #FF6666; }
+  .box2 { background-color: #FFCC66; }
+  .box3 { background-color: #99FF66; }
+  .box4 { background-color: #66CCFF; }
+  .box5 { background-color: #CC66FF; }
+</style>
+</head>
+<body>
+<h1 align="center"><b>MATH REVIEW<b/><h1/>
+
+<div class="box-container">
+  <div class="box box1", href >
+    <a href="C:\Users\Darwin C. Agullana\OneDrive\Desktop\Interactive quiz\Question 1.html">1</a>
+  </div>
+
+  <div class="box box2">
+    <a href="C:\Users\Darwin C. Agullana\OneDrive\Desktop\Interactive quiz\Question 2.html">2</a>
+  </div>
+
+  <div class="box box3">
+    <a href="C:\Users\Darwin C. Agullana\OneDrive\Desktop\Interactive quiz\Question 3.html">3</a>
+  </div>
+
+  <div class="box box4">
+    <a href="C:\Users\Darwin C. Agullana\OneDrive\Desktop\Interactive quiz\Question 4.html">4</a>
+  </div>
+
+  <div class="box box5">
+    <a href="C:\Users\Darwin C. Agullana\OneDrive\Desktop\Interactive quiz\Question 5.html">5</a>
+  </div>
+</div>
+
+</body>
+</html>
